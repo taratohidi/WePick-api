@@ -24,6 +24,6 @@ app.get("/status", (req, res) => {
   res.send("Server is online");
 });
 
-app.listen(PORT, () => {
-  console.log(`server running at ${BACKEND_URL}:${PORT}`);
+app.listen(PORT, (req, res) => {
+  res.send(`server running at ${BACKEND_URL}:${PORT}`);
 });
