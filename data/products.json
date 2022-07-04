@@ -4,10 +4,10 @@
     "farmerID": "5bf7bd6c-2b16-4129-bddc-9d37ff8539e9",
     "farmerName": "Farmer A",
     "itemName": "Garlic Olive Oil",
-    "description": "A 32\" IPS LED ultrawide monitor, perfect for work or gaming.",
-    "category": "Olive Oils",
+    "description": "Garlic Olive Oil is made with ancient landrace Souri olives and fresh whole garlic that is crushed together at the olive press. This production method requires precise agricultural artistry in coordinating harvests for garlic to be at their peak of flavor in time for the olive season. The result is a top quality olive oil laced with a vibrant flavor.",
+    "category": "olive oils",
     "image": "https://cdn.pixabay.com/photo/2018/01/27/21/04/oil-3112195_1280.jpg",
-    "price": 0,
+    "price": 32,
     "comments": [
       {
         "id": "35bba08b-1b51-4153-ba7e-6da76b5ec1b9",
@@ -39,8 +39,8 @@
     "itemName": "Raw Olive Oil",
     "description": "This sleek, 40L backpack is completely waterproof making it perfect for adventures or the daily commute.",
     "image": "https://cdn.pixabay.com/photo/2016/08/15/20/29/olive-oil-1596417_1280.jpg",
-    "category": "Olive Oils",
-    "price": 0,
+    "category": "olive oils",
+    "price": 24,
     "comments": [
       {
         "id": "ade82e25-6c87-4403-ba35-47bdff93a51c",
@@ -70,10 +70,10 @@
     "farmerID": "5bf7bd6c-2b16-4129-bddc-9d37ff8539e9",
     "farmerName": "Farmer A",
     "itemName": "Basil Olive Oil",
-    "description": "Breathable, and made of 100% organic cotton, this is an essential piece for any wardrobe",
+    "description": "Basil Olive Oil is made with ancient landrace Souri olives and fresh basil that is crushed together at the olive press. This production method requires precise agricultural artistry in coordinating harvests for the basil to be at its peak of flavor in time for the olive season. The result is a top quality olive oil laced with a vibrant flavor.",
     "image": "https://cdn.pixabay.com/photo/2016/05/24/13/29/olive-oil-1412361_1280.jpg",
-    "category": "Olive Oils",
-    "price": 0,
+    "category": "olive oils",
+    "price": 35,
     "comments": [
       {
         "id": "7ba106bf-e74a-4c21-b59e-c485a30eea45",
@@ -103,10 +103,10 @@
     "farmerID": "5bf7bd6c-2b16-4129-bddc-9d37ff8539e9",
     "farmerName": "Farmer A",
     "itemName": "Chili Olive Oil",
-    "description": "Made from 100% full grain leather this belt will go with any dress or casual outfit.",
+    "description": "Chili Olive Oil is made with ancient landrace Souri olives and fresh whole chilis that are crushed together at the olive press. This production method requires precise agricultural artistry in coordinating harvests for chili to be at their peak of flavor in time for the olive season.",
     "image": "https://cdn.pixabay.com/photo/2015/09/06/01/01/olive-oil-926827_1280.jpg",
-    "category": "Olive Oils",
-    "price": 0,
+    "category": "olive oils",
+    "price": 55,
     "comments": [
       {
         "id": "a2b4ccd4-af48-46e9-9e62-b96731dad728",
@@ -137,9 +137,9 @@
     "farmerName": "Farmer A",
     "itemName": "Raw Wildflower Honey",
     "description": "This toothpaste is specially formulated to protect enamel and whiten teeth with natural ingredients.",
-    "category": "Honey",
-    "image": "https://pixabay.com/images/id-1006972/",
-    "price": 4000,
+    "category": "honeys",
+    "image": "https://cdn.pixabay.com/photo/2018/02/14/14/53/honey-3153105_1280.jpg",
+    "price": 29,
     "comments": [
       {
         "id": "823f6f49-db71-49fe-9918-bde8d8da6a4a",
@@ -168,11 +168,11 @@
     "id": "2c0185c7-89ef-48ad-a22f-9fc022a5c90c",
     "farmerID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
     "farmerName": "Farmer B",
-    "itemName": "Raspberry Blossom Honey",
+    "itemName": "Raspberry Honey",
     "description": "This 50\", 4K LED TV provides a crystal-clear picture and vivid colors.",
-    "image": "https://pixabay.com/images/id-352205/",
-    "category": "Honey",
-    "price": 0,
+    "image": "https://cdn.pixabay.com/photo/2014/05/23/18/15/honey-352205_960_720.jpg",
+    "category": "honeys",
+    "price": 17,
     "comments": [
       {
         "id": "52a21461-b0cc-43bc-a9d6-d52a7d4cedbe",
@@ -202,9 +202,9 @@
     "farmerName": "Farmer B",
     "itemName": "Raw Wildflower Honey",
     "description": "Made out of military-grade synthetic materials, this gym bag is highly durable, water resistant, and easy to clean.",
-    "image": "https://pixabay.com/images/id-1958464/",
-    "category": "Honey",
-    "price": 565,
+    "image": "https://cdn.pixabay.com/photo/2015/06/27/16/35/honey-823614_960_720.jpg",
+    "category": "honeys",
+    "price": 23,
     "comments": [
       {
         "id": "c93c16f0-4795-45d1-b0da-21696d54f25a",
@@ -233,11 +233,11 @@
     "id": "3b042051-f18c-4a16-a393-68ceba87277a",
     "farmerID": "90ac3319-70d1-4a51-b91d-ba6c2464408c",
     "farmerName": "Farmer B",
-    "itemName": "Citrus Blossom Honey",
+    "itemName": "Citrus Honey",
     "description": "A simple 100% cotton hoodie, this is an essential piece for any wardrobe.",
-    "image": "https://pixabay.com/images/id-1852934/",
-    "category": "Honey",
-    "price": 245,
+    "image": "https://cdn.pixabay.com/photo/2018/03/20/13/22/glass-3243257_1280.jpg",
+    "category": "honeys",
+    "price": 25,
     "comments": [
       {
         "id": "6ff4314c-acde-4c91-a753-95cb7a366ee9",
@@ -259,11 +259,11 @@
     "id": "828c12d1-c0dd-4fd4-b8db-ac8eb493f8f8",
     "farmerID": "bfc9bea7-66f1-44e9-879b-4d363a888eb4",
     "farmerName": "Farmer C",
-    "itemName": "Blueberry Blossom Honey",
+    "itemName": "Blueberry Honey",
     "description": "A 32\" IPS LED ultrawide monitor, perfect for work or gaming.",
-    "category": "Honey",
-    "image": "https://www.pexels.com/photo/art-blur-color-delicious-302163/",
-    "price": 50,
+    "category": "honeys",
+    "image": "https://cdn.pixabay.com/photo/2015/10/26/11/10/honey-1006972_960_720.jpg",
+    "price": 19,
     "comments": [
       {
         "id": "2d818087-c1f4-4ec2-bcdc-b545fd6ec258",
@@ -285,11 +285,11 @@
     "id": "b6abe52c-05be-4c90-b39a-d9decefd4274",
     "farmerID": "bfc9bea7-66f1-44e9-879b-4d363a888eb4",
     "farmerName": "Farmer C",
-    "itemName": "Raspberry Blossom Honey",
+    "itemName": "Raspberry Honey",
     "description": "This sleek, 40L backpack is completely waterproof making it perfect for adventures or the daily commute.",
-    "image": "https://www.pexels.com/photo/clear-glass-bowl-beside-yellow-flower-1638280/",
-    "category": "Honey",
-    "price": 0,
+    "image": "https://cdn.pixabay.com/photo/2020/04/14/18/13/honey-5043708_960_720.jpg",
+    "category": "honeys",
+    "price": 24,
     "comments": []
   },
   {
@@ -298,9 +298,9 @@
     "farmerName": "Farmer D",
     "itemName": "Saffron",
     "description": "This 50\", 4K LED TV provides a crystal-clear picture and vivid colors.",
-    "image": "https://unsplash.com/photos/_Nrw_Pa3rhM",
-    "category": "Spices",
-    "price": 0,
+    "image": "https://images.unsplash.com/photo-1613549026674-2b6c58226395?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "category": "spices",
+    "price": 20,
     "comments": []
   },
   {
@@ -309,9 +309,9 @@
     "farmerName": "Farmer D",
     "itemName": "Green Cumin Seed",
     "description": "Made out of military-grade synthetic materials, this gym bag is highly durable, water resistant, and easy to clean.",
-    "image": "https://unsplash.com/photos/iwo-ItMFK0A",
-    "category": "Spices",
-    "price": 1895,
+    "image": "https://images.unsplash.com/photo-1601723897386-e5df0c749fb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1162&q=80",
+    "category": "spices",
+    "price": 15,
     "comments": []
   },
   {
@@ -320,9 +320,9 @@
     "farmerName": "Farmer D",
     "itemName": "Black Cumin Seed",
     "description": "A simple 100% cotton hoodie, this is an essential piece for any wardrobe.",
-    "image": "https://unsplash.com/photos/CfryyqgO9zc",
-    "category": "Spices",
-    "price": 0,
+    "image": "https://images.pexels.com/photos/5567138/pexels-photo-5567138.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "spices",
+    "price": 12,
     "comments": []
   }
 ]

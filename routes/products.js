@@ -28,9 +28,50 @@ router.get("/:id", (req, res) => {
   });
 });
 
+// Get a single Products by category
+router.get("/:category", (req, res) => {
+  loadData("./data/products.json", (data) => {
+    const products = JSON.parse(data);
+    const foundProducts = products.filter(
+      (product) => product.category === req.params.category
+    );
+    if (foundProducts) {
+      res.json(foundProducts);
+    } else {
+      res.status(404).send(`${req.params.category} was not found`);
+    }
+  });
+});
+
 // Post a new Product
 router.post("/", (req, res) => {
   postData("./data/products.json", req.body, res);
+});
+
+// Post a new Comment
+router.post("/:id", (req, res) => {
+  postData("./data/products.json", req.body, res);
+});
+
+router.post("/:id/comment", (req, res) => {
+  // pass in req.body for comment
+  loadData("./data/products.json", (data) => {
+    const products = JSON.parse(data);
+    // find index of product in JSON file
+    const productIndex = products.findIndex(
+      (product) => product.id === req.params.id
+    );
+
+    // make new comment from req.body
+
+    // push to array
+    // products[productIndex].comments.push(newComment);
+
+    // write back to the JSON file
+    // fs.writeFile with products data
+
+    res.json({ productIndex });
+  });
 });
 
 // Delete an Product by ID
