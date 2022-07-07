@@ -28,32 +28,14 @@ router.get("/:id", (req, res) => {
   });
 });
 
-// Get a single Products by category
-router.get("/:category", (req, res) => {
-  loadData("./data/products.json", (data) => {
-    const products = JSON.parse(data);
-    const foundProducts = products.filter(
-      (product) => product.category === req.params.category
-    );
-    if (foundProducts) {
-      res.json(foundProducts);
-    } else {
-      res.status(404).send(`${req.params.category} was not found`);
-    }
-  });
-});
-
 // Post a new Product
 router.post("/", (req, res) => {
   postData("./data/products.json", req.body, res);
 });
 
 // Post a new Comment
-router.post("/:id", (req, res) => {
-  postData("./data/products.json", req.body, res);
-});
 
-router.post("/:id/comment", (req, res) => {
+router.post("/:id", (req, res) => {
   // pass in req.body for comment
   loadData("./data/products.json", (data) => {
     const products = JSON.parse(data);
@@ -63,14 +45,20 @@ router.post("/:id/comment", (req, res) => {
     );
 
     // make new comment from req.body
+    const newComment = req.body;
 
     // push to array
-    // products[productIndex].comments.push(newComment);
+    products[productIndex].comments.push(newComment);
 
     // write back to the JSON file
     // fs.writeFile with products data
-
-    res.json({ productIndex });
+    fs.writeFile("./data/products.json", JSON.stringify(products), (err) => {
+      if (err) {
+        res.send("error, file not written");
+      } else {
+        res.send("file written");
+      }
+    });
   });
 });
 
