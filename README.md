@@ -32,9 +32,7 @@ Note: If using the local server, please add the PORT number in use and update th
 ## Tools/Methods  
 
 **Tech Stack**
-* React
-* Sass
-* Axios
+
 * Node.js 
 * Express.js
 * Cors
